@@ -14,7 +14,7 @@ function HomeScreen() {
       strings: [
         " Developer.tsx💻",
         " Photographer.raw📸",
-        " Procrastinator:sleep(1) 💤",
+        " Dreamer.sleep(0)💤",
       ],
       startDelay: 250,
       typeSpeed: 100,
@@ -38,8 +38,8 @@ function HomeScreen() {
             quality={100}
             className="rounded-full"
           />
-          <div className="flex flex-col ms-5 mt-3">
-            <div id="txt" className="text-xl">
+          <div className="flex flex-col ms-4 mt-3">
+            <div id="txt" className="text-2xl">
               Hey there!👋, am uditya a{" "}
               <span ref={el} className="text-orange-600" />{" "}
             </div>
@@ -59,7 +59,14 @@ function HomeScreen() {
         </div>
 
 <div id="about" className="mt-20">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, reprehenderit modi corrupti laboriosam distinctio illo commodi autem facere voluptate, explicabo maiores expedita accusantium harum aperiam atque voluptatem nulla quaerat. Consequuntur?
+
+
+🚀 19-year-old self-taught front-end developer exploring the realms of back-end. Creating visually appealing websites is my forte. 🌐<br/><br/>
+
+📸 Photography is my visual diary, and gaming is my digital escape. Finding harmony between code and creativity.<br/><br/>
+
+Let's bring ideas to life! 💻✨
+
 </div>
 
       </div>
