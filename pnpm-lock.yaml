@@ -23,6 +23,9 @@ dependencies:
   framer-motion:
     specifier: ^10.16.5
     version: 10.16.5(react-dom@18.2.0)(react@18.2.0)
+  instafeed.js:
+    specifier: ^2.0.0
+    version: 2.0.0
   next:
     specifier: 14.0.3
     version: 14.0.3(react-dom@18.2.0)(react@18.2.0)
@@ -4051,6 +4054,10 @@ packages:
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
+
+  /instafeed.js@2.0.0:
+    resolution: {integrity: sha512-k7khLgozabWoUNoZtU1UV5+hTyYI+hJJi7GosWV0TFp7xaT+buL7eNt6utN7Af+3TeMGHc59DFrcXddtS+X0qw==}
+    dev: false
 
   /internal-slot@1.0.6:
     resolution: {integrity: sha512-Xj6dv+PsbtwyPpEflsejS+oIZxmMlV44zAhG479uYu89MsjcYOhCFnNyKrkJrihbsiasQyY0afoCl/9BLR65bg==}

@@ -1,9 +1,17 @@
-import React from 'react'
+import { Metadata } from "next";
+import React from "react";
+import CommingSoon from "~/components/CommingSoon";
+
+export const metadata: Metadata = {
+  title: "GuestBook | Uditya",
+};
 
 function GuestBook() {
   return (
-    <div>GuestBook</div>
-  )
+    <>
+      <CommingSoon />
+    </>
+  );
 }
 
-export default GuestBook
+export default GuestBook;
