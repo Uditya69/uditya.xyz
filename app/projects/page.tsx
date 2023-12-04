@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import CommingSoon from "~/components/CommingSoon";
 
 export const metadata: Metadata ={
   title:'Projects | Udityaa'
@@ -6,7 +7,7 @@ export const metadata: Metadata ={
 export default async function Page() {
   return (
     <div>
-      <h1>Projects</h1>
+      <CommingSoon />
     </div>
   );
 }
