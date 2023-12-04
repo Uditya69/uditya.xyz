@@ -10,8 +10,8 @@ export default function Header() {
       </div>
       <div className='flex justify-end gap-4 ml-32 text-xl'>
         <Link href={'./projects'}><button className='hover:text-orange-200'>Work</button></Link>
-        <Link href={'./'}><button className='hover:text-orange-200'>Blog</button></Link>
-        <Link href={'./'}><button className='hover:text-orange-200'>GuestBook</button></Link>
+        <Link href={'./posts'}><button className='hover:text-orange-200'>Blog</button></Link>
+        <Link href={'./guestbook'}><button className='hover:text-orange-200'>GuestBook</button></Link>
 
       </div>
 

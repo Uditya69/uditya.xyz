@@ -40,7 +40,7 @@ function HomeScreen() {
           />
           <div className="flex flex-col ms-4 mt-3">
             <div id="txt" className="text-2xl">
-              Hey there!👋, am uditya a{" "}
+              Hey there!👋, am uditya, a{" "}
               <span ref={el} className="text-orange-600" />{" "}
             </div>
             
@@ -63,11 +63,12 @@ function HomeScreen() {
 
 🚀 19-year-old self-taught front-end developer exploring the realms of back-end. Creating visually appealing websites is my forte. 🌐<br/><br/>
 
-📸 Photography is my visual diary, and gaming is my digital escape. Finding harmony between code and creativity.<br/><br/>
+📸 Photography is my visual diary, and gaming is my digital escape🎮. Finding harmony between code and creativity.<br/><br/>
 
 Let's bring ideas to life! 💻✨
 
 </div>
+
 
       </div>
     </>
