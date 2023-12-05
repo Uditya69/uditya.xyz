@@ -81,11 +81,11 @@ function HomeScreen() {
           back-end. Creating visually appealing websites is my forte. 🌐
           <br />
           <br />
-          📸 Photography is my visual diary, and gaming is my digital escape🎮.
+          📸 Photography is my visual diary, and gaming is my digital escape 🎮.
           Finding harmony between code and creativity.
           <br />
           <br />
-          Let's bring ideas to life! 💻✨
+          Let&apos;s bring ideas to life! 💻✨
         </div>
       </div>
     </>
