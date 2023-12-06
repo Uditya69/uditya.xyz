@@ -1,12 +1,13 @@
-import React from 'react'
-import CommingSoon from '~/components/CommingSoon'
+// pages/index.tsx
+"use client"
+import Feed from './feed';
 
-function post() {
+const HomePage: React.FC = () => {
   return (
     <div>
-        <CommingSoon />
+      <Feed />
     </div>
-  )
-}
+  );
+};
 
-export default post
+export default HomePage;
