@@ -32,17 +32,17 @@ function HomeScreen() {
       <Head>
         <title>Uditya Home</title>
       </Head>
-      <div className="flex flex-col mt-10">
-        <div id="avatar" className="flex flex-row font-mono ">
+      <div className="flex flex-col mt-10 gap-x-11 ">
+        <div id="avatar" className="flex flex-row font-mono fixed">
           <Image
             src={pf}
             height={100}
             width={100}
             alt="NOOB"
             quality={100}
-            className="rounded-full"
+            className="rounded-full fixed"
           />
-          <div className="flex flex-col ms-4 mt-3">
+          <div className="flex flex-col ms-32  mt-3">
             <div id="txt" className="text-2xl">
               Hey there!👋, am uditya, a{" "}
               <span ref={el} className="text-orange-600" />{" "}
@@ -76,7 +76,7 @@ function HomeScreen() {
           </div>
         </div>
 
-        <div id="about" className="mt-20">
+        <div id="about" className="mt-56">
           🚀 19-year-old self-taught front-end developer exploring the realms of
           back-end. Creating visually appealing websites is my forte. 🌐
           <br />
