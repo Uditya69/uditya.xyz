@@ -33,15 +33,13 @@ const GitHubRepos: React.FC = () => {
       <div className="flex flex-wrap gap-4">
         {repos.map((repo) => (
           <Link
+          key={repo.name}
           href={repo.html_url}
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 border border-gray-500 p-4  rounded-md w-full md:w-1/2 lg:w-1/3 xl:w-1/4 hover:text-violet-500"
         >
-          <div
-            key={repo.name}
-            className=""
-          >
+          <div>
             <strong className="block text-lg mb-2">{repo.name}</strong>
             <p className="text-gray-700">
               {repo.description || "No description available"}
