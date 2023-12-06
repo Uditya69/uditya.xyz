@@ -6,7 +6,6 @@ import pf from "~/app/avatar.jpeg";
 import Typed from "typed.js";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import Link from "next/link";
-import Head from "next/head";
 
 function HomeScreen() {
   const el = useRef(null);
@@ -29,9 +28,7 @@ function HomeScreen() {
   }, []);
   return (
     <>
-      <Head>
-        <title>Uditya Home</title>
-      </Head>
+      
       <div className="flex flex-col mt-10 gap-x-11 ">
         <div id="avatar" className="flex flex-row font-mono fixed">
           <Image
@@ -76,7 +73,7 @@ function HomeScreen() {
           </div>
         </div>
 
-        <div id="about" className="mt-56">
+        <div id="about" className="mt-56 text-base">
           🚀 19-year-old self-taught front-end developer exploring the realms of
           back-end. Creating visually appealing websites is my forte. 🌐
           <br />
