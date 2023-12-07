@@ -18,7 +18,7 @@ const Feed: React.FC = () => {
   useEffect(() => {
     const fetchInstagramFeed = async () => {
       try {
-        const accessToken = 'IGQWROeWtwSnljWmNLMURlbXNJVFl5dGlWRFJKM09uREo0Yk1pSUJ3aW5JYzc1SEV5RTVUWVlEcTU0VURrZAHJna2l1ZAnJObjdtb2pzMFAycUkyZATJRS1BwUUlnYk5UQm9JZAkZAuWWVPb2EzOC1yd2g1TUhqVDJvUFEZD';
+        const accessToken = 'IGQWRQTThMSl9WWlZAoTWJDOXplaHRGM21ZAWndyY3dIdlUtVmdURFpjbUs0aVZAFVFFLeFNfY2JYakg0MmpIR01pV1NrMkVraDByc3hhc0cwNmdwZAVpMalhLcUwyU2dfYm1VWU1YQW43TzhmR3ZAHLUtldHJFbTd1SFUZD';
 
         const response = await axios.get<{ data: InstagramPost[] }>(
           `https://graph.instagram.com/v12.0/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp&access_token=${accessToken}`

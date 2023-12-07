@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.11.0",
     "@radix-ui/themes": "^2.0.1",
     "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
     "framer-motion": "^10.16.5",
     "instafeed.js": "^2.0.0",
     "next": "14.0.3",
