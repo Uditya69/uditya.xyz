@@ -6,7 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 function Footer() {
   return (
 
-<div className="w-full fixed bg-black bg-opacity-80 bottom-0 ">
+<div className="w-full fixed bg-black bg-opacity-80 pt-5 bottom-0 ">
 
     
       <div className="flex flex-row max-w-3xl pb-5 justify-between text-gray-400">
@@ -38,7 +38,7 @@ function Footer() {
           >
             <FaGithub size={20} />
           </Link>
-          <Link href={""} className=" border-zinc-400">
+          <Link href={"mailto:hi@uditya.xyz"} className=" border-zinc-400">
             <AiOutlineMail size={22} className={"hover:text-rose-600"} />
           </Link>
         </div>

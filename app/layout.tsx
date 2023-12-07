@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" >
       <body className={inter.className}>
-        <main className='max-w-3xl mx-auto font-mono'>
+        <main className='max-w-3xl mx-auto font-mono '>
         
         <Header />
 

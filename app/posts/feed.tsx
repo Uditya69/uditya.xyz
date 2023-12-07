@@ -36,11 +36,11 @@ const Feed: React.FC = () => {
   return (
     <div className="container mx-auto">
       <h2 className="text-2xl font-bold mb-4">Some of my Shots📷</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 ">
         {posts.map((post) => (
           <a key={post.id} href={post.permalink} target="_blank" rel="noopener noreferrer">
-            <div className="relative overflow-hidden hover:text-slate-600 hover:rounded-md">
-              <img src={post.media_url} alt={post.caption} className="w-full h-auto" />
+            <div className="relative overflow-hidden hover:text-slate-400 hover:shadow-lg hover:shadow-sky-900">
+              <img src={post.media_url} alt={post.caption} className="w-full h-auto rounded pb-2" />
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-2 overflow-hidden whitespace-nowrap overflow-ellipsis opacity-0 transition-opacity group-hover:opacity-100">
                 {post.caption.slice(0, 30)}
               </div>
