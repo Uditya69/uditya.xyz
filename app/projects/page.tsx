@@ -8,7 +8,9 @@ interface Repo {
   description: string;
   html_url: string;
   language:string;
-  updated_at:string
+  updated_at:string;
+  homepage:string;
+
 }
 
 const GitHubRepos: React.FC = () => {
@@ -32,16 +34,16 @@ const GitHubRepos: React.FC = () => {
   return (
     <div className="mt-10 mb-10">
       <h2 className="text-2xl  font-bold mb-4">Projects</h2>
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4 ">
         {repos.map((repo) => (
           <Link
             key={repo.name}
-            href={repo.html_url}
+            href={repo.homepage||repo.html_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 border border-gray-500 p-4  rounded-md w-full md:w-1/2 lg:w-1/3 xl:w-1/4 hover:text-violet-500 "
+            className="text-blue-500 border border-gray-500 p-4  rounded-md w-full md:w-1/2 lg:w-1/3 xl:w-1/4  "
           >
-            <div className="l">
+            <div className="hover:text-violet-500">
               <strong className="block text-lg mb-2">{repo.name}</strong>
               <p className="text-gray-600">
                 {repo.description || "No description available"}
@@ -57,6 +59,8 @@ const GitHubRepos: React.FC = () => {
             </p>
               <br />
             </div>
+           <Link href={repo.html_url} target="_blank"> <div className=" hover:text-blue-400"> source code</div></Link>
+
           </Link>
         ))}
       </div>
